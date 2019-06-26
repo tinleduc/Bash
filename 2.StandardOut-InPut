@@ -1,0 +1,47 @@
+Standard Output
+ Writing Ouput to the Terminal
+
+ Writing Output  but preserving Spacing
+
+ Writing Output with more formatting Control
+
+ Writing Output from a Command
+
+ Saving Output to the files
+
+ Saving Output from the ls Command
+
+ Sedning Both Output and Error Messages to Different files
+
+ Sending Both Output and Error Messages to Same files
+
+ Appending Rather than Clobbering Output 
+
+ Skipping a Header in a File
+
+ Throwing Output away
+
+ Saving or Grouping Output from Serveral Commands
+
+ Connecting Twot
+
+Standard Input
+
+Getting Input from a File
+
+Keeping Your Data with Your Script
+
+Preventing Weird Behavior in a Here-Document
+
+
+Indenting Here-Document
+
+
+Getting User Input
+
+Getting Yes or No Input
+
+Selecting from a List of Options
+
+Prompting for a Password
+
