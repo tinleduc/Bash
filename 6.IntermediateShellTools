@@ -1,0 +1,65 @@
+// Chapter 1
+
+Sifting through file for a string
+
+Getting just the filename from a search
+
+Getting a simple True/False from a search
+
+Searching for Text While Ignoring Case
+
+Doing a Search in a Pipeline
+
+Paring Down What the Search Finds
+
+Searching with More Complex Patterns
+
+Searching for an SSN
+
+Grepping compressed files
+
+Keeping Some  Output Discarding the Rest
+
+Keep only a Portion of a Line of Output
+
+Reserving the Word on Each Line
+
+Summing a List of Numbers
+
+Counting String Values
+
+Show Data as a Quick and Easy Histogram
+
+Showing a Paragraph of Text afer a found Phrase
+
+// Chapter 2
+
+Sorting Your output
+
+Sorting Numbers
+ 
+Sorting IP addresses
+
+Cutting out Parts of Your Output
+
+Removing Duplicate Lines
+
+Compressing Files
+
+Unciompressing Files
+
+Checking a tar Archive for Unique Directories
+
+Transalting Characters
+
+Converting Uppercase to Lowercase
+
+Converting DOS Files to Linux Format
+
+Removing Smart Quotes
+
+Counting Lines Words or Characters in a File
+
+Rewrapping Paragraphs
+
+Doing More with less
