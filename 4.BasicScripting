@@ -1,16 +1,50 @@
-Documenet Your Scripts
+Documenting Your Scripts
+  #
+  # This is a comment.
+  #
+  # Use comments frequently.
+  # Comments are your friends.
 
 Embedding Docummentation in Shell Scripts
+ 
+  
 
 Promoting Script Readability
-
+  - Document your script as noted
+  - Indent and use vertical whitespace wisely
+  - Using meaningful variable names
+  - Functions and give them meaningful names
+  - Breaking lines at meaningful places at less than 76 character 
+  - Put the most meaning bits to the left
+  
+  
 Separating Variable names from Surrounding Text
+  Print a variable along with other text
+  You are using the dollar sign in refering to the variable 
+  
+  for FN in 1 2 3 4 5
+  do
+    somescript /tmp/rep${FN}port.txt
+  done
 
 Exporting Variables
+    You defined a variable in one script but when you called another script it didn't know about the variable
+    Export variable that you want to pass on to other scripts
+    
+      export MYVAR
+      export NAME=value
 
 Seeing all variable values
+   export -p
+   set --> to see the value of all variables and function definition in the current shell
+   env --> to see only those variables tht have been exported and would be avaiable to a subshell
 
 Using Parameters in a Shell Script
+  Using command-line parameters. Any words put on the command line of a shell script are avaiable to the script as numbered variables:
+    #simple shell script
+    echo $1
+    
+
 
 Looping Over Arguments Passed to a Script
 
