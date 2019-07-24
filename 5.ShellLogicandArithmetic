@@ -1,9 +1,46 @@
 Doing Arithmetic in your shell script
-
+  Use $(()) or let for integer arithmetic expressions:
+  
+  count=$((count + 5+ max*2))
+  
+  let count+=5+max*2
+   
 Branching on Conditions
+  You want to check if you have right number of arguments and take actions accordingly.
+  You need a branchuing construct
+  
+  if list; then list ; [ elif list; then list; ] ... [ else list; ] fi
+   The [ and ] in our description here are used to delineate optional parts of the statement.
 
 Testing for File Characteristics
-
+  You want to make your script robust bychecking to see if your input file is there before reading from it
+  #!/usr/bin/env bash
+  # cookbook filename: checkfile
+  #
+  
+  DIRPLACE=/tmp
+  INFILE=/home/yucca/amazing.data
+  OUTFILE=/home/yucca/more.results
+  
+  if[ -d $DIRPLACE]
+  then
+      cd $DIRPLACE
+      if [ -e "$INFILE"]
+      then
+          if [ -e "$OUTFILE"]
+          then 
+              doscience < "$INFILE" >> "$OUTFILE"
+          else
+              echo "can not write to $OUTFILE"
+          fi
+      else
+          echo "can not read from $INFILE"
+      fi
+  else
+      echo " can not cd into #DIRPLACE"
+  fi
+  
+  
 Testing for more than one thing 
 
 Testing for String Chracteristics
